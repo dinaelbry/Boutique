@@ -1,0 +1,29 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.home {
+  background-image: url(assets/hero-image.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+section#home {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.row {
+display: flex;
+align-items: center;
+}
